@@ -28,12 +28,9 @@ const Navbar = () => {
                     whileTap={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 300 }}
                 >
-                    <Link
-                        to="/"
-                        className="text-2xl font-bold text-blue-600 tracking-wide"
-                        onClick={closeMenu}
-                    >
-                        MyPortfolio
+                    <Link to="/" className="flex items-center gap-2 text-2xl font-bold">
+                        <span className="bg-blue-600 text-white px-2 py-1 rounded-md">AP</span>
+                        <span className="text-blue-700 hidden sm:inline">Aalok Parekh</span>
                     </Link>
                 </motion.div>
 

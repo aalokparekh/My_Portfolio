@@ -10,14 +10,14 @@ const Home = () => {
             transition={{ duration: 0.6 }}
         >
             <h1 className="text-5xl md:text-7xl font-extrabold text-blue-700 mb-4">
-                Hi, I'm Aalok
+                Hi, I'm Aalok Parekh
             </h1>
 
             <ReactTyped
                 className="text-xl md:text-2xl text-gray-800 mb-6"
                 strings={[
                     "Full Stack Web Developer 💻",
-                    "React & Node.js Enthusiast ⚛️",
+                    "Your idea → My code → Live product 🚀",
                     "Building Modern Web Experiences 🌐",
                 ]}
                 typeSpeed={40}
